@@ -1,0 +1,9 @@
+register({
+  id: 'sqlite3',
+  type: 'external',
+  language: 'c++',
+  base: '/usr/local/opt/sqlite',
+  includedirs: ['include'],
+  libdirs: ['lib'],
+  libs: ['sqlite3']
+});

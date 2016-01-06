@@ -1,0 +1,6 @@
+register({
+  id: 'sqlite3_regex',
+  language: 'c++',
+  type: 'shared_lib',
+  deps: ['sqlite3']
+});
